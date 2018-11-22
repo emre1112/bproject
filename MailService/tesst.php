@@ -13,5 +13,6 @@ $activeProject =  $db->getrows("SELECT  * FROM  activeproject ap INNER JoIN
             INNER JOIN lesson l on l.lid=pl.lid
             ");
             echo "test";
+            echo "merhaba";
 
 ?>
